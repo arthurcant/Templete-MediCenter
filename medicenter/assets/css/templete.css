@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+
+}
