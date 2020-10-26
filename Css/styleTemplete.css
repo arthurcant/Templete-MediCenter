@@ -1,0 +1,560 @@
+@charset "UTF-8";
+
+* {
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 17px;
+    margin-top: 10px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.fistLi {
+    background-color: rgb(97, 97, 255);
+    color: #ffffff;
+}
+
+.lista:hover {
+    background-color: rgb(97, 97, 255);
+    padding: 15px;
+    color: #ffffff;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url("../Images/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner_headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.banner_option {
+    display: flex;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.banner_headline h1,
+.banner_headline h2 {
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+}
+
+.banner_headline h1 {
+    font-size: 40pt;
+    text-shadow: 0px 2px 0px #000000;
+    max-width: 350px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner_headline h2 {
+    font-size: 20px;
+    width: 400px;
+    margin-top: 19px;
+    max-width: 350px;
+    padding: 0px;
+}
+
+.banner_option {
+    height: 250px;
+    display: flex;
+}
+
+.banner_01,
+.banner_02,
+.banner_03 {
+    flex: 1;
+    padding: 20px;
+}
+
+.banner_01 {
+    background-color: #39aae1;
+}
+
+.banner_02 {
+    background-color:  #0079c7;
+}
+
+.banner_03 {
+    background-color: #2b4c99;
+
+}
+
+.banner_title {
+    color: #ffffff;
+    font-size: 21pt;
+}
+
+.banner_descrition {
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.banner_discrition_hours p {
+    color: white;
+    border-bottom: 1px solid rgb(112, 112, 226);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hours {
+    padding-right: 90px;
+}
+.hours02 {
+    padding-right: 134px;
+}
+
+.hours03 {
+    padding-right: 143px;
+}
+
+.caixinha_Read {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top:  10px;
+    width: 130px;
+    border: 1px solid white;
+    color: #ffffff;
+}
+
+.caixinha_Read a {
+    color: white;
+    text-decoration: none;
+}
+
+.caixinha_Read a :visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+ /* */
+.seta {
+    align-self: center;
+    background-color: #ffffff;
+    width: 20px;
+    height: 3px;
+}
+
+.cabeca {
+    align-self: center;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-left-color: white;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: #000000;
+    font-size: 21pt;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 3px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+
+.widget_body_Deparmentes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.caixa {
+    width: 120px;
+    height: 120px;
+    background-color: #39aae1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.infomacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.infomacao p {
+    justify-content: center;
+    align-items: center;
+}
+
+.info01 {
+    height: 50px;
+    margin-top: 25px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+
+}
+
+.info02 {
+    height: 50px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.info03 {
+    height: 50px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+article .news_data {
+    display: flex;
+}
+
+article .news_posted_at {
+    margin-right: 3px;
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+}
+
+article .news_comments {
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    background-color: #39aae1;
+}
+
+article .thumbnail {
+    margin-top: 30px;
+}
+
+article .thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+article .news_title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 23pt;
+    color: black;
+}
+
+article .news_resume {
+    font-size: 15px;
+    line-height: 19px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+}
+
+.fm_1, 
+.fm_2, 
+.fm_3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+
+.fm_1 {
+    background-color: #39aae1;
+}
+
+.fm_2 {
+    background-color:  #0079c7;
+}
+
+.fm_3 {
+    background-color: #2b4c99;
+
+}
+
+.fm_title {
+    padding: 10px;
+    font-size: 21pt;
+}
+
+.fm_legend {
+    padding: 10px;
+    font-size: 10pt;
+    display: flex;
+}
+
+.fm_legend .setaP {
+    align-self: center;
+}
+
+.fm_legend .cabecaP {
+    align-self: center;
+}
+
+.setaP {
+    background-color: white;
+    width: 8px;
+    height: 3px;
+}
+
+.cabecaP {
+    border: 5px solid transparent;
+    border-left-color: #ffffff;
+}
+
+#part01, #part02 {
+    color: #5c5c5c;
+    font-size: 11pt;
+}
+
+#part01 {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-right: 10px;
+  
+}
+
+.part03 {
+    margin-bottom: 30px;
+
+}
+
+.years {
+    color: dodgerblue;
+    font-size: 10pt;
+}
+
+.mRight01 {
+    margin-right: 30px;
+}
+
+.mRight02 {
+    margin-right: 72px;
+}
+
+.mRight03 {
+    margin-right: 20px;
+}
+
+#email {
+    color: #ffffff;
+}
+
+#part03 img {
+    color: #ffffff;
+}
+
+.footer_area {
+    display: flex;
+    
+}
+
+.footer_areaitem {
+    flex: 1;
+    color: white;  
+}
+
+.flexColumn {
+    flex-direction: column;
+}
+
+footer .widget_title_text {
+    color: white;
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    margin-top: 30px;
+}
+
+.menuMobile {
+    display: none;  
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm_line {
+    display: block; 
+    height: 2px;
+    background-color: #36a9e1;
+    line-height: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .banner_headline h1 {
+        font-size: 33pt;
+    }
+
+    .banner_headline h2 {
+        font-size: 18px;
+    }
+
+    .banner_headline {
+        padding: 50px;
+    }
+
+    .banner_option {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .conteiner {
+        flex-direction: column;
+    }
+
+    #geral {
+        margin-top: 178px;
+        padding: 20px;
+    }
+
+    #geral aside {
+        padding: 20px;
+    }
+
+    .footer_menu {
+        flex-direction: column;
+    }
+    .footer_area {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .footer_copy {
+        padding-left: 20px;
+    }
+
+    header .conteiner {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        position: absolute;
+        display: none;
+        left: 0px;
+        width: 100%;
+        background-color: #fff;
+        top: 100px;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menuMobile {
+        display: flex;  
+        flex-direction: column; 
+        justify-content: space-around;
+    }
+    
+}
+
